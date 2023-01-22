@@ -1,0 +1,41 @@
+
+.models-head-style{
+display: inline-block;
+justify-content: left;
+color:black;
+background-color: whitesmoke;
+width: 250px;
+height: 100vh;
+text-align: center;
+align-items: center;
+}
+
+.pannel-label{
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pannel-label:hover{
+    color:whitesmoke;
+    transform: scale(1);
+    cursor: pointer;
+    background-color: rgb(63, 60, 60);
+}
+.panel-contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-area{
+width: 1200px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    width: 100%;
+}
